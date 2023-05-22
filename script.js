@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const size = document.createElement("h1");
+const size =  document.getElementById("sizeInfo")
 size.innerText = `Width: ${window.innerWidth} and Height: ${window.innerHeight}`;
 document.body.append(size);
 
